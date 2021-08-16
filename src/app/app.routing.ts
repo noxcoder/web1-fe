@@ -7,6 +7,7 @@ import { ComponentsComponent } from './components/components.component';
 import { SignupComponent } from './examples/signup/signup.component';
 import { RobotsComponent } from './examples/robots/robots.component';
 import { GitComponent } from './examples/git/git.component';
+import { ProfileComponent } from './examples/profile/profile.component';
 
 const routes: Routes =[
     { path: '', redirectTo: 'home', pathMatch: 'full' },
@@ -14,6 +15,7 @@ const routes: Routes =[
     { path: 'robots.txt',       component: RobotsComponent },
     { path: '.git',             component: GitComponent },
     { path: 'login',           component: SignupComponent },
+    { path: 'profile',         component: ProfileComponent}
 ];
 
 @NgModule({
